@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=robot:wght@400;700&display=swap" rel="stylesheet">
+  <title>Hello World</title>
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto',sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://cdn.mos.cms.futurecdn.net/YMa7Wx2FyjQFUjEeqa72Rm-1200-80.jpg);
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+  border-radius: 15px;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+}
+p{
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+
+}
+button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1{
+  background-image: url(https://lp-cms-production.imgix.net/2019-06/16641625.jpg?auto=format&q=40&w=1920&ar=16%3A9&h=1080);
+  
+}
+.card2{
+  background-image: url(https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/10/2020_10$largeimg_1725993374.jpg);
+  
+  
+  
+}
+.card3{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEfNQvs2j878dB9FyQAjW3_1Q6TIvCiTDdLw&usqp=CAU);
+  
+  
+  
+}
+.card4{
+  background-image: url(https://static2.tripoto.com/media/filter/tst/img/372556/TripDocument/1505073607_img_9697.jpg)
+  
+  
+  
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+.card p{
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+
+}
+summary{
+  width: 250px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  margin-left: 200px;
+  background: lightgray;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  text-align: center;
+  border-style: solid;
+  cursor: pointer;
+
+}
+a{
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <!--<link rel="stylesheet" type="text/css" href="assignment1.css">-->
+  <div class="container">
+    <div class="navbar">
+      <img src="https://cdn0.iconfinder.com/data/icons/uae-travel-1/512/as469_13-512.png" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">REGION</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfioGc91dpAs6jYhssFSqO_01efoQXZcVTBA&usqp=CAU" class="menu-icon">
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1>Pyramid of GIZA</h1>
+        <p>The Great Pyramid of Giza is the largest Egyptian pyramid and tomb of Fourth Dynasty pharaoh Khufu. Built in the 26th century BC during a period of around 27 years, it borders present-day Giza in Greater Cairo, Egypt.</p>
+      
+        
+          <a target="_blank" href="https://www.google.com/search?q=pyramids+of+giza&oq=pyramid&aqs=chrome.0.69i59j69i57j0i512l3j69i60l2j69i61.5797j0j7&sourceid=chrome&ie=UTF-8"><button type="button">Explore</button></a>
+        </div>
+      <details>
+        <summary> click here,Explore More</summary>
+      <div class="col">
+        <div class="card card1">
+          <a href="#"><h5>Machu Picchu, Peru</h5></a>
+          <p>The Incan ruins of Machu Picchu continue to astound historians.</p>
+          
+        </div>
+        <div class="card card2">
+          <a href="#"><h5>Thar desert</h5></a>
+          <p>The Thar Desert, also known as the Great Indian Desert,a natural boundary between India and Pakistan.</p>
+          
+        </div>
+        <div class="card card3">
+          <a href="#"><h5>El Bagawat</h5></a>
+          <p>The El Bagawat cemetery is reported to be pre-historic and is one of the oldest Christian cemeteries in Egypt.</p>
+          
+        </div>
+        <div class="card card4">
+          <a href="#"><h5>Athirappilly Water Falls</h5></a>
+          <p>Athirappilly Falls, is situated in Athirappilly Panchayat in Chalakudy Taluk of Thrissur District in Kerala.</p>
+          
+        </div>
+      </details>
+
+        
+      </div>
+      
+    </div>
+    
+  </div>
+
+</body>
+</html>
